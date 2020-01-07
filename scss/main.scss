@@ -1,6 +1,7 @@
 @import "config";
 @import "menu";
-@import "mobile";
+@import "skills";
+
 * {
   box-sizing: border-box;
 }
@@ -26,9 +27,12 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.7);
   }
+  &.about-me {
+    font-size: 4rem;
+  }
 }
 a {
-  color: white;
+  color: set-text-color($primary-color);
   text-decoration: none;
 }
 header {
@@ -38,6 +42,9 @@ header {
 }
 .text-secondary {
   color: $secondary-color;
+}
+.text-black {
+  color: black;
 }
 main {
   padding: 4rem;
@@ -58,4 +65,25 @@ main {
       margin-top: 20vh;
     }
   }
+  &#about-me {
+    overflow: hidden;
+    h1 {
+      margin-top: 1vh;
+    }
+  }
 }
+.about-info {
+  padding: 20px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-areas:
+    "bio bio"
+    "text-secondary text-secondary"
+    "skills1 skills2";
+  grid-template-columns: 1fr 1fr;
+}
+.bio {
+  font-size: 1.3rem;
+  grid-area: bio;
+}
+@import "mobile";

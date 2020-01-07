@@ -3,7 +3,7 @@
 @include mediaLg {
 }
 @include mediaMd {
-  main {
+  main#home {
     align-items: center;
     text-align: center;
     .lg-heading {
@@ -11,6 +11,15 @@
       margin-bottom: 1rem;
     }
   }
+  main#about-me {
+    align-items: center;
+    text-align: left;
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -34,6 +43,15 @@
       width: 150px;
       height: 150px;
     }
+  }
+  .about-info {
+    grid-gap: 10px;
+    grid-template-areas:
+      "bio"
+      "text-secondary"
+      "skills1"
+      "skills2";
+    grid-template-columns: 1fr;
   }
 }
 @include mediaSm {
