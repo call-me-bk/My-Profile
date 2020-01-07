@@ -87,6 +87,19 @@ main {
       }
     }
   }
+  &#my-experience {
+    h1 {
+      margin-top: 1vh;
+      &.my-experience {
+        font-size: 4rem;
+      }
+    }
+    h3 {
+      &.my-experience {
+        font-size: 2rem;
+      }
+    }
+  }
 }
 .about-info {
   padding: 20px;
@@ -101,5 +114,12 @@ main {
 .bio {
   font-size: 1.3rem;
   grid-area: bio;
+}
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: lighten($primary-color, 10);
+  color: set-text-color($primary-color);
+  height: 60px;
 }
 @import "mobile";

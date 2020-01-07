@@ -3,7 +3,7 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
-
+const timelineitems = document.querySelectorAll(".timeline");
 //Set Initial state of menu
 let showMenu = false;
 
@@ -15,6 +15,7 @@ function toggleMenu() {
   menuNav.classList.toggle("show");
   menuBranding.classList.toggle("show");
   navItems.forEach(item => item.classList.toggle("show"));
+  timelineitems.forEach(item => item.classList.toggle("hide"));
 }
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
