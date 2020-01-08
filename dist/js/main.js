@@ -21,13 +21,13 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = [
-  "Developer",
-  "Programmer",
+  "Learner",
   "Designer",
+  "Developer",
   "Geek",
-  "Thinker",
+  "Programmer",
   "Sportsman",
-  "Entrepreneur"
+  "Thinker"
 ];
 const typingDelay = 200;
 const erasingDelay = 100;
