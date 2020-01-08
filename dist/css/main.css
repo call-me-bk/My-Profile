@@ -32,7 +32,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/IMG_0649-01.jpeg);
+      background: url(../img/DisplayPicture.jpeg);
       background-size: cover;
       border-radius: 50%;
       border: solid 3px cyan; }
@@ -529,7 +529,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/background.jpeg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img::after {
@@ -582,7 +582,8 @@ main {
     main .icons a {
       padding: 0.7rem; }
       main .icons a i {
-        margin-bottom: 1.5rem; }
+        margin-bottom: 1.5rem;
+        margin-right: 0.23rem; }
       main .icons a:hover {
         color: cyan;
         transition: all 0.5s ease-in-out; }
