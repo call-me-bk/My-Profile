@@ -631,7 +631,7 @@ main {
     main#about-me h3 {
       font-size: 2rem; }
     main#about-me p {
-      font-size: 1rem; }
+      font-size: 0.75rem; }
   main#my-work {
     padding: 2rem;
     align-items: center;
@@ -641,7 +641,7 @@ main {
     main#my-work h3.my-work {
       font-size: 1.5rem; }
     main#my-work p {
-      font-size: 1rem; }
+      font-size: 0.7rem; }
   main#my-experience {
     padding: 2rem;
     align-items: center;
