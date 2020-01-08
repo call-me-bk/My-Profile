@@ -1,8 +1,8 @@
 $primary-color: black;
 $secondary-color: cyan;
 $show-home-image: true;
-$home-image: url(/dist/img/background.jpg);
-$my-image: url(/dist/img/IMG_0649-01.jpeg);
+$home-image: url(../img/background.jpg);
+$my-image: url(../img/IMG_0649-01.jpeg);
 $background-opacity: 0.7;
 @mixin ease-in-out {
   transition: all 0.5s ease-in-out;

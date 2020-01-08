@@ -32,7 +32,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/IMG_0649-01.jpeg);
+      background: url(../img/IMG_0649-01.jpeg);
       background-size: cover;
       border-radius: 50%;
       border: solid 3px cyan; }
@@ -376,9 +376,22 @@
   .direction-r .desc {
     margin: 1em 4em 0 4em; } }
 
-.work-link {
+.direction-l .work-link {
   position: relative;
   right: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.3rem;
+  background-color: rgba(0, 255, 255, 0.7);
+  border-radius: 8rem; }
+
+.direction-r .work-link {
+  position: relative;
+  left: 25%;
   text-align: center;
   display: inline-block;
   padding: 0.2rem 0.5rem;
@@ -516,7 +529,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img::after {
