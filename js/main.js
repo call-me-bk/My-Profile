@@ -27,8 +27,7 @@ const textArray = [
   "Programmer",
   "Sportsman",
   "Thinker",
-  "Leader",
-  "Learner"
+  "Leader"
 ];
 const typingDelay = 200;
 const erasingDelay = 100;
